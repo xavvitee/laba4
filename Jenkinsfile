@@ -12,7 +12,7 @@ pipeline {
             steps {
                 script {
                     try {
-                        bat "C:\\Users\\User\\Downloads\\vs_mkr_test1\\test_repos.sln /p:Configuration=Debug /p:Platform=x64 /m"
+                        bat "C:\Users\Валерія\Downloads\laba4\vs_mkr_test1\test_repos.sln /p:Configuration=Debug /p:Platform=x64 /m"
                     } catch (err) {
                         echo "Build failed: ${err}"
                         error "Stopping pipeline due to build failure"
