@@ -12,11 +12,12 @@ pipeline {
             steps {
                 script {
                     try {
-                       bat "C:\\Users\\Валерія\\Downloads\\vs_mkr_test1 (1)\\test_respos.sln /p:Configuration=Debug /p:Platform=x64 /m"
-                        echo "Build error: ${e.message}"
-                        currentBuild.result = 'FAILURE'
-                        error("Pipeline stopped due to build failure.")
+                        bat "C:\\Users\\User\\Downloads\\vs_mkr_test1\\SP_task4.sln /p:Configuration=Debug /p:Platform=x64 /m"
+                    } catch (err) {
+                        echo "Build failed: ${err}"
+                        error "Stopping pipeline due to build failure"
                     }
+
                 }
             }
         }
