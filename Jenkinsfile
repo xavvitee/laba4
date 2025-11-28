@@ -12,8 +12,7 @@ pipeline {
             steps {
                 script {
                     try {
-                        bat 'C:\Users\Валерія\Downloads\vs_mkr_test1 (1) && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions" SP_task4.sln /p:Configuration=Debug /p:Platform=x64 /m'
-                    } catch (Exception e) {
+                       bat "C:\\Users\\Валерія\\Downloads\\vs_mkr_test1 (1)\\test_respos.sln /p:Configuration=Debug /p:Platform=x64 /m"
                         echo "Build error: ${e.message}"
                         currentBuild.result = 'FAILURE'
                         error("Pipeline stopped due to build failure.")
