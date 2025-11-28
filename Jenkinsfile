@@ -4,50 +4,26 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/xavvitee/prct4.git', credentialsId: 'access_for_jenkins'
+                git url: 'https://github.com/xavvitee/laba4.git', credentialsId: 'github-credentials' 
             }
         }
-        
+
         stage('Build') {
             steps {
-                script {
-                    try {
-                        bat "C:/Users/Валерія/Downloads/laba4/vs_mkr_test1/test_repos.sln /p:Configuration=Debug /p:Platform=x64 /m"
-                    } catch (err) {
-                        echo "Build failed: ${err}"
-                        error "Stopping pipeline due to build failure"
-                    }
-
-                }
+                bat '"C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/MSBuild.exe" test_repos.sln /t:Build /p:Configuration=Debug'
             }
         }
-        
+
         stage('Test') {
             steps {
-                script {
-                    try {
-                        bat '"C:\\Users\\User\\source\\repos\\SP_task4\\SP_task4\\x64\\Debug\\SP_task4.exe"'
-                    } catch (Exception e) {
-                        echo "Test error: ${e.message}"
-                        currentBuild.result = 'FAILURE'
-                        error("Pipeline stopped due to test execution failure.")
-                    }
-                }
+                bat 'x64\\Debug\\test_repos.exe --gtest_output=xml:test_report.xml' 
             }
         }
     }
     
     post {
         always {
-            cleanWs()
-        }
-        
-        failure {
-            echo "Pipeline failed. Check logs to fix the issues."
-        }
-        
-        success {
-            echo "Pipeline completed successfully!"
+            junit testResults: '**/test_report.xml' 
         }
     }
 }
