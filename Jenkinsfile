@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/xavvitee/laba4.git', credentialsId: 'github-credentials' 
+                git url: 'https://github.com/xavvitee/laba4.git', credentialsId: 'bf45da17bbd9fdb75ff1767f0d21513e' 
             }
         }
 
