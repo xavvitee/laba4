@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0456\u044F\\Downloads\\vs_mkr_test1 (1)\\vs_mkr_test1\\",
+  "WorkspaceRootPath": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0456\u044F\\Downloads\\laba4\\vs_mkr_test1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0456\u044F\\Downloads\\vs_mkr_test1 (1)\\vs_mkr_test1\\Jenkinsfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0456\u044F\\Downloads\\laba4\\vs_mkr_test1\\Jenkinsfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Jenkinsfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0456\u044F\\Downloads\\vs_mkr_test1 (1)\\vs_mkr_test1\\sort.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:sort.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0456\u044F\\Downloads\\laba4\\vs_mkr_test1\\stringProcessor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:stringProcessor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0456\u044F\\Downloads\\vs_mkr_test1 (1)\\vs_mkr_test1\\stringProcessor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:stringProcessor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0456\u044F\\Downloads\\laba4\\vs_mkr_test1\\sort.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:sort.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +22,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "sort.h",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0456\u044F\\Downloads\\laba4\\vs_mkr_test1\\sort.h",
+              "RelativeDocumentMoniker": "sort.h",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0456\u044F\\Downloads\\laba4\\vs_mkr_test1\\sort.h",
+              "RelativeToolTip": "sort.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-28T13:48:02.683Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Jenkinsfile",
-              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0456\u044F\\Downloads\\vs_mkr_test1 (1)\\vs_mkr_test1\\Jenkinsfile",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0456\u044F\\Downloads\\laba4\\vs_mkr_test1\\Jenkinsfile",
               "RelativeDocumentMoniker": "Jenkinsfile",
-              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0456\u044F\\Downloads\\vs_mkr_test1 (1)\\vs_mkr_test1\\Jenkinsfile",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0456\u044F\\Downloads\\laba4\\vs_mkr_test1\\Jenkinsfile",
               "RelativeToolTip": "Jenkinsfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-11-28T13:48:53.919Z",
               "EditorCaption": ""
@@ -40,25 +54,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "sort.h",
-              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0456\u044F\\Downloads\\vs_mkr_test1 (1)\\vs_mkr_test1\\sort.h",
-              "RelativeDocumentMoniker": "sort.h",
-              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0456\u044F\\Downloads\\vs_mkr_test1 (1)\\vs_mkr_test1\\sort.h",
-              "RelativeToolTip": "sort.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-28T13:48:02.683Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "stringProcessor.h",
-              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0456\u044F\\Downloads\\vs_mkr_test1 (1)\\vs_mkr_test1\\stringProcessor.h",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0456\u044F\\Downloads\\laba4\\vs_mkr_test1\\stringProcessor.h",
               "RelativeDocumentMoniker": "stringProcessor.h",
-              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0456\u044F\\Downloads\\vs_mkr_test1 (1)\\vs_mkr_test1\\stringProcessor.h",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0456\u044F\\Downloads\\laba4\\vs_mkr_test1\\stringProcessor.h",
               "RelativeToolTip": "stringProcessor.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-11-28T13:47:54.152Z",
               "EditorCaption": ""
